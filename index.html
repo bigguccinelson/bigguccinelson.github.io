@@ -3,10 +3,17 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <audio id="music" hidden autoplay loop>
+      <source src="assets/oxygene.mp3" type="audio/mpeg">
+    </audio> 
     <div>
-      <button onclick="openPDF('assets/Compton Executioners - Wikipedia.pdf')">DVS EXECUTIONERS</button>
+      <img src="assets/eyefind.png">
+
+      <button onclick="openPDF('assets/docs/Compton Executioners - Wikipedia.pdf')">DVS EXECUTIONERS</button>
     </div>
     <script>
+      document.getElementById("music").volume = 0.02; 
+
       function openPDF(file) {
         window.open(file);
       }

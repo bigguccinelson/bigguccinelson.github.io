@@ -1,6 +1,30 @@
+body {
+  background: rgb(81, 146, 190);
+  user-select: none;
+}
+
 div {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+
+  display: grid;
+}
+
+div button {
+  font-size: 20px;
+  height: 45%;
+  border: none;
+  border-bottom: 3.5px solid rgb(240, 194, 14);
+  border-radius: 5px;
+  background: rgb(15, 122, 138);
+  color: white;
+  margin-top: 30%;
+}
+
+div button:hover {
+  border-bottom: none;
+  background: rgb(9, 73, 83);
+  cursor: url(https://www.cursor.cc/cursor/140/22/cursor.png), auto;
 }

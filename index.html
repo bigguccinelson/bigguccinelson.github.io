@@ -1,9 +1,14 @@
 <html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
   <body>
-    <button onclick="openPDF()">DVS EXECUTIONERS</button>
+    <div>
+      <button onclick="openPDF("assets/Compton Executioners - Wikipedia.pdf")">DVS EXECUTIONERS</button>
+    </div>
     <script>
-      function openPDF() {
-        window.open("assets/Compton Executioners - Wikipedia.pdf");
+      function openPDF(file) {
+        window.open(file);
       }
     </script>
   </body>

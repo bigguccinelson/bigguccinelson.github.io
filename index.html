@@ -1,6 +1,10 @@
 <html>
   <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7"> 
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <title>eyefind.info</title>
   </head>
   <body>
     <audio id="music" hidden autoplay loop>
@@ -9,7 +13,12 @@
     <div>
       <img src="assets/eyefind.png">
 
+      <form action="https://www.google.com/search">
+        <input type="text" name="q" placeholder="Szukaj w Eyefind">
+      </form>
+      
       <button onclick="openPDF('assets/docs/Compton Executioners - Wikipedia.pdf')">DVS EXECUTIONERS</button>
+      <button onclick="openPDF('assets/docs/List of LASD deputy gangs - Wikipedia.pdf')">LSSD GANGS</button>
     </div>
     <script>
       document.getElementById("music").volume = 0.02; 

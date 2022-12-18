@@ -28,3 +28,15 @@ div button:hover {
   background: rgb(9, 73, 83);
   cursor: url(https://www.cursor.cc/cursor/140/22/cursor.png), auto;
 }
+
+input[type="text"] {
+  width: 100%;
+  outline: none;
+  font-weight: bold;
+  padding: 12px 20px;
+  margin-top: 20%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
